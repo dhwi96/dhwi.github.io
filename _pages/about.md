@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: PhD candidate · Computer Vision · Kyungpook National University
 profile:
-  align: right
+  align: left
   image: research/profile.jpg
   image_circular: false
   more_info: >
