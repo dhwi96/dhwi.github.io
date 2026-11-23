@@ -1,0 +1,58 @@
+// Site typography; preserve the root size for browser accessibility settings.
+body,
+button,
+input,
+select,
+textarea,
+.profile .more-info,
+.profile .more-info p {
+  font-family:
+    "Pretendard Variable",
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    sans-serif;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+body h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+body h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+body h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+body h4,
+body h5,
+body h6 {
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+
+table:not(.table) td,
+table:not(.table) th,
+.post-description,
+.publications ol.bibliography li {
+  font-size: 0.9375rem;
+}
+
+.profile .more-info {
+  font-size: 0.875rem;
+}

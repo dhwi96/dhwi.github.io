@@ -29,3 +29,10 @@ Actions의 Deploy site가 성공한 뒤 사이트에 반영됩니다.
 - 템플릿 예시 페이지와 컬렉션은 `_config.yml`의 `exclude`로 배포에서 제외했습니다.
 - 원본 Google Sites는 별도 서비스이므로 자동 리디렉션되지 않습니다. 이전 안내와 새 주소를 원본 홈 상단에 넣으면 됩니다.
 - Google Sites의 공개 내용과 이미지 8장을 이전했습니다. 논문 원제와 저자·연도는 원본을 기준으로 보존했습니다.
+
+## 글꼴과 크기
+
+글꼴은 Pretendard Variable이며 `_config.yml`의 `third_party_libraries.google_fonts.url.fonts`에서 공식 웹폰트를 불러옵니다.
+본문 15px, H1 32px, H2 24px, H3 20px를 기준으로 `_sass/_site-typography.scss`에서 조절할 수 있습니다.
+`assets/css/main.scss`는 테마 기본 스타일 뒤에 이 파일을 불러오는 사이트 전용 오버라이드입니다.
+테마 버전을 올릴 때 `.al-folio-overrides.yml`을 확인하고 `bundle exec al-folio upgrade overrides audit`를 실행하세요.
