@@ -2,14 +2,25 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching and training experience.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## K-Digital Training
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**Daegu Digital Innovation Promotion Agency**  
+Artificial Intelligence · February–March 2022
 
-{% include courses.liquid %}
+## Teaching assistant
+
+School of Computer Science and Engineering, Kyungpook National University
+
+| Term        | Course                           |
+| :---------- | :------------------------------- |
+| Fall 2024   | Artificial Intelligence          |
+| Fall 2024   | Introduction to Machine Learning |
+| Spring 2024 | Artificial Intelligence          |
+| Spring 2024 | Introduction to Machine Learning |
+| Fall 2023   | Introduction to Machine Learning |
+| Spring 2021 | Compiler                         |
