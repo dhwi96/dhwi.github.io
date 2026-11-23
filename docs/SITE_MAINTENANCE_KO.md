@@ -18,7 +18,7 @@
 GitHub에서 파일을 열고 연필(Edit) → 수정 → Commit changes를 하면 자동 배포됩니다.
 Actions의 Deploy site가 성공한 뒤 사이트에 반영됩니다.
 논문을 홈페이지에도 표시하려면 BibTeX 항목에 `selected = {true}`를 추가합니다.
-썸네일은 `preview = {research/파일명.png}`로 지정합니다.
+논문 썸네일은 `assets/img/publication_preview/`에 저장하고 `preview = {파일명.png}`로 지정합니다.
 
 ## 주소와 배포 설정
 
